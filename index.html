@@ -193,6 +193,32 @@
         responsive: true
       }
     });
+<<<<<<< HEAD
+=======
+    //pleaseee
+    // Function to update hotspots list after clicking a month
+    function updateHotspotsList(month) {
+      const hotspotsUl = document.getElementById('hotspots-ul');
+      hotspotsUl.innerHTML = ""; // Clear existing
+
+      const monthHotspots = hotspotsByMonth[month] || [];
+      monthHotspots.forEach(h => {
+        const li = document.createElement('li');
+        li.textContent = `${h.name} (Reports: ${h.reports}, Freq: ${h.freq})`;
+        hotspotsUl.appendChild(li);
+      });
+    }
+
+    // Optional: If you want the chart to update when species changes, 
+    // you can add an event listener to the species-select element 
+    // and re-fetch or re-draw the chart data.  
+    // Example:
+    document.getElementById('species-select').addEventListener('change', function() {
+      // Fetch new data and update chart/hotspots as needed
+      // This is a placeholder for future expansions.
+    });
+>>>>>>> 650445684cee3f691ae8155e47e7672d6a5509ce
   </script>
 </body>
 </html>
+
