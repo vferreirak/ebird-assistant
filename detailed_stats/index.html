@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detailed Statistics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Papa Parse CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Detailed Statistics</h1>
+  </header>
+
+  <main>
+    <section class="sidebar">
+      <h2>Select Species</h2>
+      <p>Choose a species to view detailed stats from the taxonomy dataset.</p>
+      <select id="species-select">
+        <option value="">--Select a species--</option>
+        <!-- Options populated by script.js -->
+      </select>
+      
+      <div class="info-box">
+        <h3>Taxonomy</h3>
+        <p>Please select a species to see its taxonomy details here.</p>
+      </div>
+    </section>
+    
+    <section class="content">
+      <h2>Results</h2>
+      <div class="stats-output" id="stats-output">
+        <!-- Stats will be dynamically inserted here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Detailed Statistics</p>
+  </footer>
+</body>
+</html>
