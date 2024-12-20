@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotspot Finder</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- Include Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Hotspot Finder</h1>
+  </header>
+  <main>
+    <section class="controls">
+      <div class="species-selection">
+        <h2>Step 1) Select Species</h2>
+        <select id="species-select">
+          <option value="Acadian Flycatcher">Acadian Flycatcher</option>
+          <!-- More species options here -->
+        </select>
+      </div>
+
+      <div class="chart-section">
+        <h2>Step 2) View Monthly Observations & Click a Month</h2>
+        <p>Select a species, review the monthly reports, and click on a month’s bar to see the best hotspots for that month.</p>
+        <div class="chart">
+          <h3>Reports, by Month</h3>
+          <canvas id="observationsChart" width="400" height="200"></canvas>
+        </div>
+      </div>
+
+      <div class="hotspot-list">
+        <h2>Step 3) Hotspots</h2>
+        <ul id="hotspots-ul">
+          <!-- This will be filled dynamically based on chart click -->
+        </ul>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="bird-info">
+        <h2 class="bird-name">Acadian Flycatcher</h2>
+        <p><em>Empidonax virescens</em></p>
+        <p>Family: Tyrannidae (Tyrant Flycatchers)</p>
+        <p>Order: Passeriformes</p>
+        <div class="bird-image">
+          <img src="bird-placeholder.jpg" alt="Acadian Flycatcher"/>
+        </div>
+      </div>
+      <div class="map-container">
+        <div class="map-placeholder">[Map Placeholder]</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Hotspot Finder</p>
+  </footer>
+
+  <script>
+    // Example data - replace with your real data
+    const months = ["May", "June", "July"];
+    const reportsData = [25, 40, 10]; // Example: May(25), June(40), July(10)
+
+    // Example hotspots data keyed by month
+    const hotspotsByMonth = {
+      "May": [
+        { name: "Pinckney RA--Embury Rd.", reports: 162, freq: 0.44 },
+        { name: "Nan Weston Nature Preserve", reports: 40, freq: 0.29 }
+      ],
+      "June": [
+        { name: "Gerald E. Eddy Discovery Center", reports: 34, freq: 0.19 },
+        { name: "Bird Sanctuary 2", reports: 22, freq: 0.12 }
+      ],
+      "July": [
+        { name: "Woodland Park", reports: 10, freq: 0.05 }
+      ]
+    };
+
+    // Set up Chart.js
+    const ctx = document.getElementById('observationsChart').getContext('2d');
+    const observationsChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: months,
+        datasets: [{
+          label: 'Number of Reports',
+          data: reportsData,
+          backgroundColor: '#8ABCA2'
+        }]
+      },
+      options: {
+        responsive: true,
+        onClick: function(evt) {
+          const points = observationsChart.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, false);
+          if (points.length) {
+            const firstPoint = points[0];
+            const clickedMonth = observationsChart.data.labels[firstPoint.index];
+            updateHotspotsList(clickedMonth);
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    // Function to update hotspots list after clicking a month
+    function updateHotspotsList(month) {
+      const hotspotsUl = document.getElementById('hotspots-ul');
+      hotspotsUl.innerHTML = ""; // Clear existing
+
+      const monthHotspots = hotspotsByMonth[month] || [];
+      monthHotspots.forEach(h => {
+        const li = document.createElement('li');
+        li.textContent = `${h.name} (Reports: ${h.reports}, Freq: ${h.freq})`;
+        hotspotsUl.appendChild(li);
+      });
+    }
+
+    // Optional: If you want the chart to update when species changes, 
+    // you can add an event listener to the species-select element 
+    // and re-fetch or re-draw the chart data.  
+    // Example:
+    document.getElementById('species-select').addEventListener('change', function() {
+      // Fetch new data and update chart/hotspots as needed
+      // This is a placeholder for future expansions.
+    });
+  </script>
+</body>
+</html>
