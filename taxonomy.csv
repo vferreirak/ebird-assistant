@@ -1,0 +1,285 @@
+﻿category,speciesCode,comName,sciName,familyComName,familySciName,order,taxonOrder
+species,acafly,Acadian Flycatcher,Empidonax virescens,Tyrant Flycatchers,Tyrannidae,Passeriformes,16783
+species,aldfly,Alder Flycatcher,Empidonax alnorum,Tyrant Flycatchers,Tyrannidae,Passeriformes,16784
+species,ameavo,American Avocet,Recurvirostra americana,Stilts and Avocets,Recurvirostridae,Charadriiformes,5723
+species,amebit,American Bittern,Botaurus lentiginosus,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7473
+species,ambduc,American Black Duck,Anas rubripes,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,550
+species,y00475,American Coot,Fulica americana,"Rails, Gallinules, and Coots",Rallidae,Gruiformes,5443
+species,amecro,American Crow,Corvus brachyrhynchos,"Crows, Jays, and Magpies",Corvidae,Passeriformes,21333
+species,amgplo,American Golden-Plover,Pluvialis dominica,Plovers and Lapwings,Charadriidae,Charadriiformes,5758
+species,amegfi,American Goldfinch,Spinus tristis,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32338
+species,amekes,American Kestrel,Falco sparverius,Falcons and Caracaras,Falconidae,Falconiformes,11913
+species,amepip,American Pipit,Anthus rubescens,Wagtails and Pipits,Motacillidae,Passeriformes,31605
+species,amered,American Redstart,Setophaga ruticilla,New World Warblers,Parulidae,Passeriformes,33779
+species,amerob,American Robin,Turdus migratorius,Thrushes and Allies,Turdidae,Passeriformes,28313
+species,amtspa,American Tree Sparrow,Spizelloides arborea,New World Sparrows,Passerellidae,Passeriformes,32813
+species,amwpel,American White Pelican,Pelecanus erythrorhynchos,Pelicans,Pelecanidae,Pelecaniformes,7696
+species,amewig,American Wigeon,Mareca americana,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,497
+species,amewoo,American Woodcock,Scolopax minor,Sandpipers and Allies,Scolopacidae,Charadriiformes,6004
+species,baisan,Baird's Sandpiper,Calidris bairdii,Sandpipers and Allies,Scolopacidae,Charadriiformes,6154
+species,baleag,Bald Eagle,Haliaeetus leucocephalus,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8271
+species,balori,Baltimore Oriole,Icterus galbula,Troupials and Allies,Icteridae,Passeriformes,33491
+species,banswa,Bank Swallow,Riparia riparia,Swallows,Hirundinidae,Passeriformes,23821
+species,barswa,Barn Swallow,Hirundo rustica,Swallows,Hirundinidae,Passeriformes,23957
+species,brdowl,Barred Owl,Strix varia,Owls,Strigidae,Strigiformes,9117
+species,babwar,Bay-breasted Warbler,Setophaga castanea,New World Warblers,Parulidae,Passeriformes,33804
+species,belkin1,Belted Kingfisher,Megaceryle alcyon,Kingfishers,Alcedinidae,Coraciiformes,10202
+species,blksco2,Black Scoter,Melanitta americana,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,712
+species,blkter,Black Tern,Chlidonias niger,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6651
+species,blkvul,Black Vulture,Coragyps atratus,New World Vultures,Cathartidae,Cathartiformes,7716
+species,bawwar,Black-and-white Warbler,Mniotilta varia,New World Warblers,Parulidae,Passeriformes,33685
+species,bkbplo,Black-bellied Plover,Pluvialis squatarola,Plovers and Lapwings,Charadriidae,Charadriiformes,5754
+species,bbwduc,Black-bellied Whistling-Duck,Dendrocygna autumnalis,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,233
+species,bkbcuc,Black-billed Cuckoo,Coccyzus erythropthalmus,Cuckoos,Cuculidae,Cuculiformes,3193
+species,bkbwar,Blackburnian Warbler,Setophaga fusca,New World Warblers,Parulidae,Passeriformes,33805
+species,bkcchi,Black-capped Chickadee,Poecile atricapillus,"Tits, Chickadees, and Titmice",Paridae,Passeriformes,21841
+species,bcnher,Black-crowned Night Heron,Nycticorax nycticorax,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7513
+species,bknsti,Black-necked Stilt,Himantopus mexicanus,Stilts and Avocets,Recurvirostridae,Charadriiformes,5713
+species,bkpwar,Blackpoll Warbler,Setophaga striata,New World Warblers,Parulidae,Passeriformes,33853
+species,btbwar,Black-throated Blue Warbler,Setophaga caerulescens,New World Warblers,Parulidae,Passeriformes,33856
+species,btnwar,Black-throated Green Warbler,Setophaga virens,New World Warblers,Parulidae,Passeriformes,33928
+species,blugrb1,Blue Grosbeak,Passerina caerulea,Cardinals and Allies,Cardinalidae,Passeriformes,34308
+species,blujay,Blue Jay,Cyanocitta cristata,"Crows, Jays, and Magpies",Corvidae,Passeriformes,21066
+species,buggna,Blue-gray Gnatcatcher,Polioptila caerulea,Gnatcatchers,Polioptilidae,Passeriformes,26874
+species,buhvir,Blue-headed Vireo,Vireo solitarius,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,19027
+species,buwtea,Blue-winged Teal,Spatula discors,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,468
+species,buwwar,Blue-winged Warbler,Vermivora cyanoptera,New World Warblers,Parulidae,Passeriformes,33680
+species,boboli,Bobolink,Dolichonyx oryzivorus,Troupials and Allies,Icteridae,Passeriformes,33286
+species,bongul,Bonaparte's Gull,Chroicocephalus philadelphia,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6397
+species,brwhaw,Broad-winged Hawk,Buteo platypterus,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8383
+species,brncre,Brown Creeper,Certhia americana,Treecreepers,Certhiidae,Passeriformes,26777
+species,brnthr,Brown Thrasher,Toxostoma rufum,Mockingbirds and Thrashers,Mimidae,Passeriformes,27795
+species,bnhcow,Brown-headed Cowbird,Molothrus ater,Troupials and Allies,Icteridae,Passeriformes,33556
+species,bubsan,Buff-breasted Sandpiper,Calidris subruficollis,Sandpipers and Allies,Scolopacidae,Charadriiformes,6126
+species,buffle,Bufflehead,Bucephala albeola,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,717
+species,cacgoo1,Cackling Goose,Branta hutchinsii,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,319
+species,cangoo,Canada Goose,Branta canadensis,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,330
+species,canwar,Canada Warbler,Cardellina canadensis,New World Warblers,Parulidae,Passeriformes,34054
+species,canvas,Canvasback,Aythya valisineria,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,641
+species,camwar,Cape May Warbler,Setophaga tigrina,New World Warblers,Parulidae,Passeriformes,33781
+species,carwre,Carolina Wren,Thryothorus ludovicianus,Wrens,Troglodytidae,Passeriformes,27107
+species,caster1,Caspian Tern,Hydroprogne caspia,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6644
+species,cedwax,Cedar Waxwing,Bombycilla cedrorum,Waxwings,Bombycillidae,Passeriformes,29618
+species,cerwar,Cerulean Warbler,Setophaga cerulea,New World Warblers,Parulidae,Passeriformes,33782
+species,chswar,Chestnut-sided Warbler,Setophaga pensylvanica,New World Warblers,Parulidae,Passeriformes,33849
+species,chiswi,Chimney Swift,Chaetura pelagica,Swifts,Apodidae,Apodiformes,3842
+species,chispa,Chipping Sparrow,Spizella passerina,New World Sparrows,Passerellidae,Passeriformes,32708
+species,clcspa,Clay-colored Sparrow,Spizella pallida,New World Sparrows,Passerellidae,Passeriformes,32714
+species,cliswa,Cliff Swallow,Petrochelidon pyrrhonota,Swallows,Hirundinidae,Passeriformes,24051
+species,comgal1,Common Gallinule,Gallinula galeata,"Rails, Gallinules, and Coots",Rallidae,Gruiformes,5411
+species,comgol,Common Goldeneye,Bucephala clangula,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,718
+species,comgra,Common Grackle,Quiscalus quiscula,Troupials and Allies,Icteridae,Passeriformes,33576
+species,comloo,Common Loon,Gavia immer,Loons,Gaviidae,Gaviiformes,6854
+species,commer,Common Merganser,Mergus merganser,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,737
+species,comnig,Common Nighthawk,Chordeiles minor,Nightjars and Allies,Caprimulgidae,Caprimulgiformes,3439
+species,comter,Common Tern,Sterna hirundo,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6674
+species,comyel,Common Yellowthroat,Geothlypis trichas,New World Warblers,Parulidae,Passeriformes,33749
+species,conwar,Connecticut Warbler,Oporornis agilis,New World Warblers,Parulidae,Passeriformes,33714
+species,daejun,Dark-eyed Junco,Junco hyemalis,New World Sparrows,Passerellidae,Passeriformes,32842
+species,dickci,Dickcissel,Spiza americana,Cardinals and Allies,Cardinalidae,Passeriformes,34337
+species,doccor,Double-crested Cormorant,Nannopterum auritum,Cormorants and Shags,Phalacrocoracidae,Suliformes,7342
+species,dowwoo,Downy Woodpecker,Dryobates pubescens,Woodpeckers,Picidae,Piciformes,11287
+species,dunlin,Dunlin,Calidris alpina,Sandpipers and Allies,Scolopacidae,Charadriiformes,6130
+species,eargre,Eared Grebe,Podiceps nigricollis,Grebes,Podicipedidae,Podicipediformes,6797
+species,easblu,Eastern Bluebird,Sialia sialis,Thrushes and Allies,Turdidae,Passeriformes,27881
+species,easkin,Eastern Kingbird,Tyrannus tyrannus,Tyrant Flycatchers,Tyrannidae,Passeriformes,17302
+species,easmea,Eastern Meadowlark,Sturnella magna,Troupials and Allies,Icteridae,Passeriformes,33290
+species,easpho,Eastern Phoebe,Sayornis phoebe,Tyrant Flycatchers,Tyrannidae,Passeriformes,16840
+species,easowl1,Eastern Screech-Owl,Megascops asio,Owls,Strigidae,Strigiformes,8770
+species,eastow,Eastern Towhee,Pipilo erythrophthalmus,New World Sparrows,Passerellidae,Passeriformes,33136
+species,easwpw1,Eastern Whip-poor-will,Antrostomus vociferus,Nightjars and Allies,Caprimulgidae,Caprimulgiformes,3561
+species,eawpew,Eastern Wood-Pewee,Contopus virens,Tyrant Flycatchers,Tyrannidae,Passeriformes,16757
+species,eurgol,European Goldfinch,Carduelis carduelis,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32273
+species,eursta,European Starling,Sturnus vulgaris,Starlings,Sturnidae,Passeriformes,27571
+species,evegro,Evening Grosbeak,Coccothraustes vespertinus,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,31806
+species,fiespa,Field Sparrow,Spizella pusilla,New World Sparrows,Passerellidae,Passeriformes,32720
+species,forter,Forster's Tern,Sterna forsteri,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6657
+species,foxspa,Fox Sparrow,Passerella iliaca,New World Sparrows,Passerellidae,Passeriformes,32817
+species,fragul,Franklin's Gull,Leucophaeus pipixcan,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6428
+species,gadwal,Gadwall,Mareca strepera,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,487
+species,glagul,Glaucous Gull,Larus hyperboreus,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6498
+species,goleag,Golden Eagle,Aquila chrysaetos,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,7969
+species,gockin,Golden-crowned Kinglet,Regulus satrapa,Kinglets,Regulidae,Passeriformes,26599
+species,gowwar,Golden-winged Warbler,Vermivora chrysoptera,New World Warblers,Parulidae,Passeriformes,33679
+species,graspa,Grasshopper Sparrow,Ammodramus savannarum,New World Sparrows,Passerellidae,Passeriformes,32661
+species,grycat,Gray Catbird,Dumetella carolinensis,Mockingbirds and Thrashers,Mimidae,Passeriformes,27758
+species,gycthr,Gray-cheeked Thrush,Catharus minimus,Thrushes and Allies,Turdidae,Passeriformes,28066
+species,gragoo,Graylag Goose,Anser anser,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,264
+species,gbbgul,Great Black-backed Gull,Larus marinus,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6494
+species,grbher3,Great Blue Heron,Ardea herodias,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7658
+species,grcfly,Great Crested Flycatcher,Myiarchus crinitus,Tyrant Flycatchers,Tyrannidae,Passeriformes,17165
+species,greegr,Great Egret,Ardea alba,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7635
+species,grhowl,Great Horned Owl,Bubo virginianus,Owls,Strigidae,Strigiformes,8811
+species,gresca,Greater Scaup,Aythya marila,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,669
+species,gwfgoo,Greater White-fronted Goose,Anser albifrons,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,276
+species,greyel,Greater Yellowlegs,Tringa melanoleuca,Sandpipers and Allies,Scolopacidae,Charadriiformes,6092
+species,grnher,Green Heron,Butorides virescens,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7611
+species,gnwtea,Green-winged Teal,Anas crecca,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,588
+species,haiwoo,Hairy Woodpecker,Dryobates villosus,Woodpeckers,Picidae,Piciformes,11314
+species,harduc,Harlequin Duck,Histrionicus histrionicus,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,702
+species,harspa,Harris's Sparrow,Zonotrichia querula,New World Sparrows,Passerellidae,Passeriformes,32916
+species,helgui,Helmeted Guineafowl,Numida meleagris,Guineafowl,Numididae,Galliformes,950
+species,henspa,Henslow's Sparrow,Centronyx henslowii,New World Sparrows,Passerellidae,Passeriformes,32990
+species,herthr,Hermit Thrush,Catharus guttatus,Thrushes and Allies,Turdidae,Passeriformes,28081
+species,hoomer,Hooded Merganser,Lophodytes cucullatus,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,729
+species,hooori,Hooded Oriole,Icterus cucullatus,Troupials and Allies,Icteridae,Passeriformes,33404
+species,hoowar,Hooded Warbler,Setophaga citrina,New World Warblers,Parulidae,Passeriformes,33778
+species,horgre,Horned Grebe,Podiceps auritus,Grebes,Podicipedidae,Podicipediformes,6787
+species,horlar,Horned Lark,Eremophila alpestris,Larks,Alaudidae,Passeriformes,22484
+species,houfin,House Finch,Haemorhous mexicanus,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32034
+species,houspa,House Sparrow,Passer domesticus,Old World Sparrows,Passeridae,Passeriformes,31261
+species,hudgod,Hudsonian Godwit,Limosa haemastica,Sandpipers and Allies,Scolopacidae,Charadriiformes,5988
+species,y00478,Iceland Gull,Larus glaucoides,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6536
+species,indbun,Indigo Bunting,Passerina cyanea,Cardinals and Allies,Cardinalidae,Passeriformes,34317
+species,kenwar,Kentucky Warbler,Geothlypis formosa,New World Warblers,Parulidae,Passeriformes,33734
+species,killde,Killdeer,Charadrius vociferus,Plovers and Lapwings,Charadriidae,Charadriiformes,5770
+species,kirwar,Kirtland's Warbler,Setophaga kirtlandii,New World Warblers,Parulidae,Passeriformes,33780
+species,laplon,Lapland Longspur,Calcarius lapponicus,Longspurs and Snow Buntings,Calcariidae,Passeriformes,32384
+species,leafly,Least Flycatcher,Empidonax minimus,Tyrant Flycatchers,Tyrannidae,Passeriformes,16796
+species,leasan,Least Sandpiper,Calidris minutilla,Sandpipers and Allies,Scolopacidae,Charadriiformes,6162
+species,lecspa,LeConte's Sparrow,Ammospiza leconteii,New World Sparrows,Passerellidae,Passeriformes,32939
+species,lbbgul,Lesser Black-backed Gull,Larus fuscus,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6508
+species,lessca,Lesser Scaup,Aythya affinis,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,675
+species,lesyel,Lesser Yellowlegs,Tringa flavipes,Sandpipers and Allies,Scolopacidae,Charadriiformes,6083
+species,limpki,Limpkin,Aramus guarauna,Limpkin,Aramidae,Gruiformes,5614
+species,linspa,Lincoln's Sparrow,Melospiza lincolnii,New World Sparrows,Passerellidae,Passeriformes,33028
+species,libher,Little Blue Heron,Egretta caerulea,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7542
+species,logshr,Loggerhead Shrike,Lanius ludovicianus,Shrikes,Laniidae,Passeriformes,20860
+species,lobdow,Long-billed Dowitcher,Limnodromus scolopaceus,Sandpipers and Allies,Scolopacidae,Charadriiformes,6001
+species,lotduc,Long-tailed Duck,Clangula hyemalis,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,716
+species,louwat,Louisiana Waterthrush,Parkesia motacilla,New World Warblers,Parulidae,Passeriformes,33675
+species,magwar,Magnolia Warbler,Setophaga magnolia,New World Warblers,Parulidae,Passeriformes,33800
+species,mallar3,Mallard,Anas platyrhynchos,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,525
+species,manduc,Mandarin Duck,Aix galericulata,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,443
+species,margod,Marbled Godwit,Limosa fedoa,Sandpipers and Allies,Scolopacidae,Charadriiformes,5991
+species,marwre,Marsh Wren,Cistothorus palustris,Wrens,Troglodytidae,Passeriformes,27088
+species,merlin,Merlin,Falco columbarius,Falcons and Caracaras,Falconidae,Falconiformes,11947
+species,miskit,Mississippi Kite,Ictinia mississippiensis,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8292
+species,moudov,Mourning Dove,Zenaida macroura,Pigeons and Doves,Columbidae,Columbiformes,2373
+species,mouwar,Mourning Warbler,Geothlypis philadelphia,New World Warblers,Parulidae,Passeriformes,33729
+species,musduc,Muscovy Duck,Cairina moschata,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,431
+species,mutswa,Mute Swan,Cygnus olor,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,365
+species,naswar,Nashville Warbler,Leiothlypis ruficapilla,New World Warblers,Parulidae,Passeriformes,33704
+species,nstspa,Nelson's Sparrow,Ammospiza nelsoni,New World Sparrows,Passerellidae,Passeriformes,32950
+species,norbob,Northern Bobwhite,Colinus virginianus,New World Quail,Odontophoridae,Galliformes,999
+species,norcar,Northern Cardinal,Cardinalis cardinalis,Cardinals and Allies,Cardinalidae,Passeriformes,34224
+species,norfli,Northern Flicker,Colaptes auratus,Woodpeckers,Picidae,Piciformes,11785
+species,norhar2,Northern Harrier,Circus hudsonius,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8228
+species,houwre,Northern House Wren,Troglodytes aedon,Wrens,Troglodytidae,Passeriformes,26942
+species,normoc,Northern Mockingbird,Mimus polyglottos,Mockingbirds and Thrashers,Mimidae,Passeriformes,27870
+species,norpar,Northern Parula,Setophaga americana,New World Warblers,Parulidae,Passeriformes,33784
+species,norpin,Northern Pintail,Anas acuta,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,571
+species,nrwswa,Northern Rough-winged Swallow,Stelgidopteryx serripennis,Swallows,Hirundinidae,Passeriformes,23876
+species,nswowl,Northern Saw-whet Owl,Aegolius acadicus,Owls,Strigidae,Strigiformes,9202
+species,norsho,Northern Shoveler,Spatula clypeata,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,483
+species,norshr4,Northern Shrike,Lanius borealis,Shrikes,Laniidae,Passeriformes,20872
+species,norwat,Northern Waterthrush,Parkesia noveboracensis,New World Warblers,Parulidae,Passeriformes,33676
+species,olsfly,Olive-sided Flycatcher,Contopus cooperi,Tyrant Flycatchers,Tyrannidae,Passeriformes,16723
+species,orcwar,Orange-crowned Warbler,Leiothlypis celata,New World Warblers,Parulidae,Passeriformes,33696
+species,orcori,Orchard Oriole,Icterus spurius,Troupials and Allies,Icteridae,Passeriformes,33401
+species,osprey,Osprey,Pandion haliaetus,Osprey,Pandionidae,Accipitriformes,7737
+species,ovenbi1,Ovenbird,Seiurus aurocapilla,New World Warblers,Parulidae,Passeriformes,33669
+species,palwar,Palm Warbler,Setophaga palmarum,New World Warblers,Parulidae,Passeriformes,33863
+species,pecsan,Pectoral Sandpiper,Calidris melanotos,Sandpipers and Allies,Scolopacidae,Charadriiformes,6163
+species,perfal,Peregrine Falcon,Falco peregrinus,Falcons and Caracaras,Falconidae,Falconiformes,11997
+species,phivir,Philadelphia Vireo,Vireo philadelphicus,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,19044
+species,pibgre,Pied-billed Grebe,Podilymbus podiceps,Grebes,Podicipedidae,Podicipediformes,6776
+species,pilwoo,Pileated Woodpecker,Dryocopus pileatus,Woodpeckers,Picidae,Piciformes,11647
+species,pinsis,Pine Siskin,Spinus pinus,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32316
+species,pinwar,Pine Warbler,Setophaga pinus,New World Warblers,Parulidae,Passeriformes,33868
+species,prawar,Prairie Warbler,Setophaga discolor,New World Warblers,Parulidae,Passeriformes,33896
+species,prowar,Prothonotary Warbler,Protonotaria citrea,New World Warblers,Parulidae,Passeriformes,33686
+species,purfin,Purple Finch,Haemorhous purpureus,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32048
+species,purmar,Purple Martin,Progne subis,Swallows,Hirundinidae,Passeriformes,23851
+species,redcro,Red Crossbill,Loxia curvirostra,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32220
+species,rebwoo,Red-bellied Woodpecker,Melanerpes carolinus,Woodpeckers,Picidae,Piciformes,11088
+species,rebmer,Red-breasted Merganser,Mergus serrator,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,745
+species,rebnut,Red-breasted Nuthatch,Sitta canadensis,Nuthatches,Sittidae,Passeriformes,26688
+species,reevir1,Red-eyed Vireo,Vireo olivaceus,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,19067
+species,redhea,Redhead,Aythya americana,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,642
+species,rehwoo,Red-headed Woodpecker,Melanerpes erythrocephalus,Woodpeckers,Picidae,Piciformes,11035
+species,rengre,Red-necked Grebe,Podiceps grisegena,Grebes,Podicipedidae,Podicipediformes,6790
+species,renpha,Red-necked Phalarope,Phalaropus lobatus,Sandpipers and Allies,Scolopacidae,Charadriiformes,6059
+species,redpol1,Redpoll,Acanthis flammea,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32205
+species,reshaw,Red-shouldered Hawk,Buteo lineatus,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8391
+species,rethaw,Red-tailed Hawk,Buteo jamaicensis,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8410
+species,retloo,Red-throated Loon,Gavia stellata,Loons,Gaviidae,Gaviiformes,6848
+species,rewbla,Red-winged Blackbird,Agelaius phoeniceus,Troupials and Allies,Icteridae,Passeriformes,33500
+species,ribgul,Ring-billed Gull,Larus delawarensis,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6455
+species,rinduc,Ring-necked Duck,Aythya collaris,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,648
+species,rinphe1,Ring-necked Pheasant,Phasianus colchicus,"Pheasants, Grouse, and Allies",Phasianidae,Galliformes,1444
+species,rocpig,Rock Pigeon,Columba livia,Pigeons and Doves,Columbidae,Columbiformes,1817
+species,rosspo1,Roseate Spoonbill,Platalea ajaja,Ibises and Spoonbills,Threskiornithidae,Pelecaniformes,7446
+species,robgro,Rose-breasted Grosbeak,Pheucticus ludovicianus,Cardinals and Allies,Cardinalidae,Passeriformes,34266
+species,rosgoo,Ross's Goose,Anser rossii,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,261
+species,rolhaw,Rough-legged Hawk,Buteo lagopus,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8432
+species,ruckin,Ruby-crowned Kinglet,Corthylio calendula,Kinglets,Regulidae,Passeriformes,26595
+species,rthhum,Ruby-throated Hummingbird,Archilochus colubris,Hummingbirds,Trochilidae,Apodiformes,4747
+species,rudduc,Ruddy Duck,Oxyura jamaicensis,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,753
+species,rufgro,Ruffed Grouse,Bonasa umbellus,"Pheasants, Grouse, and Allies",Phasianidae,Galliformes,1251
+species,rusbla,Rusty Blackbird,Euphagus carolinus,Troupials and Allies,Icteridae,Passeriformes,33571
+species,sander,Sanderling,Calidris alba,Sandpipers and Allies,Scolopacidae,Charadriiformes,6127
+species,sancra,Sandhill Crane,Antigone canadensis,Cranes,Gruidae,Gruiformes,5643
+species,savspa,Savannah Sparrow,Passerculus sandwichensis,New World Sparrows,Passerellidae,Passeriformes,32962
+species,scatan,Scarlet Tanager,Piranga olivacea,Cardinals and Allies,Cardinalidae,Passeriformes,34145
+species,sedwre1,Sedge Wren,Cistothorus stellaris,Wrens,Troglodytidae,Passeriformes,27062
+species,semplo,Semipalmated Plover,Charadrius semipalmatus,Plovers and Lapwings,Charadriidae,Charadriiformes,5777
+species,semsan,Semipalmated Sandpiper,Calidris pusilla,Sandpipers and Allies,Scolopacidae,Charadriiformes,6168
+species,shshaw,Sharp-shinned Hawk,Accipiter striatus,"Hawks, Eagles, and Kites",Accipitridae,Accipitriformes,8161
+species,shbdow,Short-billed Dowitcher,Limnodromus griseus,Sandpipers and Allies,Scolopacidae,Charadriiformes,5997
+species,sheowl,Short-eared Owl,Asio flammeus,Owls,Strigidae,Strigiformes,9174
+species,slbgul,Slaty-backed Gull,Larus schistisagus,"Gulls, Terns, and Skimmers",Laridae,Charadriiformes,6532
+species,snobun,Snow Bunting,Plectrophenax nivalis,Longspurs and Snow Buntings,Calcariidae,Passeriformes,32392
+species,snogoo,Snow Goose,Anser caerulescens,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,257
+species,snoegr,Snowy Egret,Egretta thula,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7557
+species,snoowl1,Snowy Owl,Bubo scandiacus,Owls,Strigidae,Strigiformes,8810
+species,solsan,Solitary Sandpiper,Tringa solitaria,Sandpipers and Allies,Scolopacidae,Charadriiformes,6067
+species,sonspa,Song Sparrow,Melospiza melodia,New World Sparrows,Passerellidae,Passeriformes,32995
+species,sora,Sora,Porzana carolina,"Rails, Gallinules, and Coots",Rallidae,Gruiformes,5398
+species,spored,Spotted Redshank,Tringa erythropus,Sandpipers and Allies,Scolopacidae,Charadriiformes,6088
+species,sposan,Spotted Sandpiper,Actitis macularius,Sandpipers and Allies,Scolopacidae,Charadriiformes,6064
+species,stisan,Stilt Sandpiper,Calidris himantopus,Sandpipers and Allies,Scolopacidae,Charadriiformes,6121
+species,sumtan,Summer Tanager,Piranga rubra,Cardinals and Allies,Cardinalidae,Passeriformes,34141
+species,sursco,Surf Scoter,Melanitta perspicillata,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,703
+species,swathr,Swainson's Thrush,Catharus ustulatus,Thrushes and Allies,Turdidae,Passeriformes,28072
+species,swaspa,Swamp Sparrow,Melospiza georgiana,New World Sparrows,Passerellidae,Passeriformes,33033
+species,tenwar,Tennessee Warbler,Leiothlypis peregrina,New World Warblers,Parulidae,Passeriformes,33695
+species,towsol,Townsend's Solitaire,Myadestes townsendi,Thrushes and Allies,Turdidae,Passeriformes,27918
+species,treswa,Tree Swallow,Tachycineta bicolor,Swallows,Hirundinidae,Passeriformes,23834
+species,truswa,Trumpeter Swan,Cygnus buccinator,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,370
+species,tuftit,Tufted Titmouse,Baeolophus bicolor,"Tits, Chickadees, and Titmice",Paridae,Passeriformes,21936
+species,tunswa,Tundra Swan,Cygnus columbianus,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,372
+species,turvul,Turkey Vulture,Cathartes aura,New World Vultures,Cathartidae,Cathartiformes,7720
+species,uplsan,Upland Sandpiper,Bartramia longicauda,Sandpipers and Allies,Scolopacidae,Charadriiformes,5949
+species,veery,Veery,Catharus fuscescens,Thrushes and Allies,Turdidae,Passeriformes,28061
+species,vesspa,Vesper Sparrow,Pooecetes gramineus,New World Sparrows,Passerellidae,Passeriformes,32935
+species,virrai,Virginia Rail,Rallus limicola,"Rails, Gallinules, and Coots",Rallidae,Gruiformes,5240
+species,warvir,Warbling Vireo,Vireo gilvus,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,19045
+species,whbnut,White-breasted Nuthatch,Sitta carolinensis,Nuthatches,Sittidae,Passeriformes,26640
+species,whcspa,White-crowned Sparrow,Zonotrichia leucophrys,New World Sparrows,Passerellidae,Passeriformes,32905
+species,whevir,White-eyed Vireo,Vireo griseus,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,18966
+species,whrsan,White-rumped Sandpiper,Calidris fuscicollis,Sandpipers and Allies,Scolopacidae,Charadriiformes,6158
+species,whtspa,White-throated Sparrow,Zonotrichia albicollis,New World Sparrows,Passerellidae,Passeriformes,32919
+species,whwcro,White-winged Crossbill,Loxia leucoptera,"Finches, Euphonias, and Allies",Fringillidae,Passeriformes,32263
+species,whwsco2,White-winged Scoter,Melanitta deglandi,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,705
+species,whocra,Whooping Crane,Grus americana,Cranes,Gruidae,Gruiformes,5662
+species,wiltur,Wild Turkey,Meleagris gallopavo,"Pheasants, Grouse, and Allies",Phasianidae,Galliformes,1242
+species,willet1,Willet,Tringa semipalmata,Sandpipers and Allies,Scolopacidae,Charadriiformes,6085
+species,wilfly,Willow Flycatcher,Empidonax traillii,Tyrant Flycatchers,Tyrannidae,Passeriformes,16785
+species,wilpha,Wilson's Phalarope,Phalaropus tricolor,Sandpipers and Allies,Scolopacidae,Charadriiformes,6057
+species,wilsni1,Wilson's Snipe,Gallinago delicata,Sandpipers and Allies,Scolopacidae,Charadriiformes,6042
+species,wlswar,Wilson's Warbler,Cardellina pusilla,New World Warblers,Parulidae,Passeriformes,34055
+species,winwre3,Winter Wren,Troglodytes hiemalis,Wrens,Troglodytidae,Passeriformes,27054
+species,wooduc,Wood Duck,Aix sponsa,"Ducks, Geese, and Waterfowl",Anatidae,Anseriformes,441
+species,woothr,Wood Thrush,Hylocichla mustelina,Thrushes and Allies,Turdidae,Passeriformes,28095
+species,woewar1,Worm-eating Warbler,Helmitheros vermivorum,New World Warblers,Parulidae,Passeriformes,33673
+species,yelrai,Yellow Rail,Coturnicops noveboracensis,"Rails, Gallinules, and Coots",Rallidae,Gruiformes,5569
+species,yelwar,Yellow Warbler,Setophaga petechia,New World Warblers,Parulidae,Passeriformes,33807
+species,yebfly,Yellow-bellied Flycatcher,Empidonax flaviventris,Tyrant Flycatchers,Tyrannidae,Passeriformes,16782
+species,yebsap,Yellow-bellied Sapsucker,Sphyrapicus varius,Woodpeckers,Picidae,Piciformes,11016
+species,yebcuc,Yellow-billed Cuckoo,Coccyzus americanus,Cuckoos,Cuculidae,Cuculiformes,3188
+species,yebcha,Yellow-breasted Chat,Icteria virens,Yellow-breasted Chat,Icteriidae,Passeriformes,33281
+species,ycnher,Yellow-crowned Night Heron,Nyctanassa violacea,"Herons, Egrets, and Bitterns",Ardeidae,Pelecaniformes,7504
+species,yerwar,Yellow-rumped Warbler,Setophaga coronata,New World Warblers,Parulidae,Passeriformes,33874
+species,yetvir,Yellow-throated Vireo,Vireo flavifrons,"Vireos, Shrike-Babblers, and Erpornis",Vireonidae,Passeriformes,19021
+species,yetwar,Yellow-throated Warbler,Setophaga dominica,New World Warblers,Parulidae,Passeriformes,33883
