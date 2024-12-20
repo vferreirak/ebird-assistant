@@ -5,81 +5,180 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hotspot Finder</title>
   <link rel="stylesheet" href="styles.css"/>
-  <!-- Include Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
 </head>
 <body>
   <header>
     <h1>Hotspot Finder</h1>
   </header>
+
   <main>
-    <section class="controls">
-      <div class="species-selection">
-        <h2>Step 1) Select Species</h2>
+    <section class="grid-container">
+      <div class="quadrant select-species">
+        <h2>Select Species</h2>
         <select id="species-select">
-          <option value="Acadian Flycatcher">Acadian Flycatcher</option>
-          <!-- More species options here -->
+          <option value="">--Select a species--</option>
         </select>
       </div>
 
-      <div class="chart-section">
-        <h2>Step 2) View Monthly Observations & Click a Month</h2>
-        <p>Select a species, review the monthly reports, and click on a month’s bar to see the best hotspots for that month.</p>
+      <div class="quadrant select-month">
+        <h2>Select Month</h2>
+        <select id="month-select">
+          <option value="">--Select a month--</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+      </div>
+
+      <div class="quadrant hotspots">
+        <h2>HotSpots</h2>
+        <div class="hotspot-info">
+          <h3>Top Hotspots for Selected Species and Month</h3>
+          <ul id="hotspots-list">
+            <!-- Hotspots will be populated here -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="quadrant species-info">
+        <h2>Species Info</h2>
+        <div class="info-box">
+          <h3>Taxonomy</h3>
+          <p>Please select a species.</p>
+        </div>
+      </div>
+
+      <div class="quadrant reports-month">
+        <h2>Reports by Month</h2>
         <div class="chart">
-          <h3>Reports, by Month</h3>
           <canvas id="observationsChart" width="400" height="200"></canvas>
         </div>
       </div>
 
-      <div class="hotspot-list">
-        <h2>Step 3) Hotspots</h2>
-        <ul id="hotspots-ul">
-          <!-- This will be filled dynamically based on chart click -->
-        </ul>
-      </div>
-    </section>
-
-    <section class="details">
-      <div class="bird-info">
-        <h2 class="bird-name">Acadian Flycatcher</h2>
-        <p><em>Empidonax virescens</em></p>
-        <p>Family: Tyrannidae (Tyrant Flycatchers)</p>
-        <p>Order: Passeriformes</p>
-        <div class="bird-image">
-          <img src="bird-placeholder.jpg" alt="Acadian Flycatcher"/>
-        </div>
-      </div>
-      <div class="map-container">
-        <div class="map-placeholder">[Map Placeholder]</div>
+      <div class="quadrant bird-photo">
+        <h2>Bird Photo</h2>
+        <img id="bird-image" src="" alt="Bird Photo" />
       </div>
     </section>
   </main>
+
   <footer>
     <p>&copy; 2024 Hotspot Finder</p>
   </footer>
 
   <script>
-    // Example data - replace with your real data
-    const months = ["May", "June", "July"];
-    const reportsData = [25, 40, 10]; // Example: May(25), June(40), July(10)
+    let parsedData = [];
+    let hotspotsData = [];
 
-    // Example hotspots data keyed by month
-    const hotspotsByMonth = {
-      "May": [
-        { name: "Pinckney RA--Embury Rd.", reports: 162, freq: 0.44 },
-        { name: "Nan Weston Nature Preserve", reports: 40, freq: 0.29 }
-      ],
-      "June": [
-        { name: "Gerald E. Eddy Discovery Center", reports: 34, freq: 0.19 },
-        { name: "Bird Sanctuary 2", reports: 22, freq: 0.12 }
-      ],
-      "July": [
-        { name: "Woodland Park", reports: 10, freq: 0.05 }
-      ]
-    };
+    // Fetch and parse the taxonomy CSV
+    fetch('./taxonomy.csv')
+      .then(response => response.text())
+      .then(csvData => {
+        const parsed = Papa.parse(csvData, { header: true }).data;
+        parsedData = parsed;
 
-    // Set up Chart.js
+        const comNames = parsed.map(row => row.comName).filter(Boolean);
+        const distinctComNames = new Set(comNames);
+
+        const speciesSelect = document.getElementById('species-select');
+        distinctComNames.forEach(speciesName => {
+          const option = document.createElement('option');
+          option.value = speciesName;
+          option.textContent = speciesName;
+          speciesSelect.appendChild(option);
+        });
+      })
+      .catch(error => console.error('Error fetching the taxonomy CSV:', error));
+
+    // Fetch and parse the hotspots CSV
+    fetch('./best_months_hotspots.csv')
+      .then(response => response.text())
+      .then(csvData => {
+        const parsed = Papa.parse(csvData, { header: true }).data;
+        hotspotsData = parsed;
+      })
+      .catch(error => console.error('Error fetching the Hotspots CSV:', error));
+
+    // Add event listener to the species select dropdown
+    document.getElementById('species-select').addEventListener('change', function() {
+      const selectedSpecies = this.value;
+      const infoBox = document.querySelector('.info-box');
+
+      if (!selectedSpecies) {
+        infoBox.innerHTML = `<h3>Taxonomy</h3><p>Please select a species.</p>`;
+        return;
+      }
+
+      const speciesData = parsedData.filter(d => d.comName === selectedSpecies);
+      if (speciesData.length > 0) {
+        const info = speciesData[0];
+        const sciName = info.sciName || "N/A";
+        const familySciName = info.familySciName || "N/A";
+        const familyComName = info.familyComName || "N/A";
+        const order = info.order || "N/A";
+
+        infoBox.innerHTML = ` 
+          <h3>Taxonomy</h3>
+          <p><strong>Scientific Name:</strong> ${sciName}</p>
+          <p><strong>Family (Scientific):</strong> ${familySciName}</p>
+          <p><strong>Family (Common Name):</strong> ${familyComName}</p>
+          <p><strong>Order:</strong> ${order}</p>
+        `;
+
+        const birdImage = document.getElementById('bird-image');
+        birdImage.src = info.birdPhotoUrl || "default-photo.jpg"; // Replace with real photo URL
+      }
+    });
+
+    // Add event listener to the month select dropdown
+    document.getElementById('month-select').addEventListener('change', function() {
+      const selectedSpecies = document.getElementById('species-select').value;
+      const selectedMonth = this.value;
+      const hotspotList = document.getElementById('hotspots-list');
+
+      hotspotList.innerHTML = '';  // Clear previous hotspots
+
+      if (!selectedSpecies || !selectedMonth) {
+        return; // Return if either species or month is not selected
+      }
+
+      // Filter hotspots data based on the selected species and month
+      const speciesHotspots = hotspotsData.filter(d => 
+        d.comName === selectedSpecies && d.Month === selectedMonth
+      );
+
+      // Display hotspots for the selected species and month
+      if (speciesHotspots.length > 0) {
+        speciesHotspots.forEach(hotspot => {
+          const hotspotItem = document.createElement('li');
+          hotspotItem.innerHTML = ` 
+            <strong>Hotspot:</strong> ${hotspot.locality} 
+            <strong>Adjusted Frequency:</strong> ${hotspot.adjusted_frequency}
+          `;
+          hotspotList.appendChild(hotspotItem);
+        });
+      } else {
+        const noHotspotsMessage = document.createElement('li');
+        noHotspotsMessage.textContent = 'No hotspots found for this species in the selected month.';
+        hotspotList.appendChild(noHotspotsMessage);
+      }
+    });
+
+    // Set up the reports chart
     const ctx = document.getElementById('observationsChart').getContext('2d');
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+   
     const observationsChart = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -91,43 +190,8 @@
         }]
       },
       options: {
-        responsive: true,
-        onClick: function(evt) {
-          const points = observationsChart.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, false);
-          if (points.length) {
-            const firstPoint = points[0];
-            const clickedMonth = observationsChart.data.labels[firstPoint.index];
-            updateHotspotsList(clickedMonth);
-          }
-        },
-        scales: {
-          y: {
-            beginAtZero: true
-          }
-        }
+        responsive: true
       }
-    });
-
-    // Function to update hotspots list after clicking a month
-    function updateHotspotsList(month) {
-      const hotspotsUl = document.getElementById('hotspots-ul');
-      hotspotsUl.innerHTML = ""; // Clear existing
-
-      const monthHotspots = hotspotsByMonth[month] || [];
-      monthHotspots.forEach(h => {
-        const li = document.createElement('li');
-        li.textContent = `${h.name} (Reports: ${h.reports}, Freq: ${h.freq})`;
-        hotspotsUl.appendChild(li);
-      });
-    }
-
-    // Optional: If you want the chart to update when species changes, 
-    // you can add an event listener to the species-select element 
-    // and re-fetch or re-draw the chart data.  
-    // Example:
-    document.getElementById('species-select').addEventListener('change', function() {
-      // Fetch new data and update chart/hotspots as needed
-      // This is a placeholder for future expansions.
     });
   </script>
 </body>

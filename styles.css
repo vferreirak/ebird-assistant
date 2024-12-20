@@ -9,6 +9,7 @@ header {
   background: #2C5C2C;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 header h1 {
@@ -18,125 +19,54 @@ header h1 {
 main {
   max-width: 1200px;
   margin: 20px auto;
-  display: flex;
-  gap: 20px;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
-/* Left side: controls area */
-.controls {
-  flex: 1;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  height: 80vh;
+  padding: 20px;
+}
+
+.quadrant {
   background: #f2f2f2;
   padding: 20px;
-  box-sizing: border-box;
   border-radius: 4px;
 }
 
-.controls h2 {
-  font-weight: normal;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-  margin-top: 0;
-}
-
-.species-selection {
-  margin-bottom: 20px;
-}
-
-.species-selection select {
+.select-species select {
   width: 100%;
-  padding: 5px;
-  margin-top: 10px;
+  padding: 10px;
   border-radius: 4px;
   border: 1px solid #ccc;
 }
 
-/* Chart Section */
-.chart-section {
-  margin-bottom: 20px;
-}
-
-.chart-section h2 {
-  font-weight: normal;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-}
-
-.chart h3 {
+.species-info h3 {
   margin-top: 0;
 }
 
-/* To highlight that the chart is interactive */
+.chart {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .chart canvas {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-/* Hotspot list */
-.hotspot-list h2 {
-  font-weight: normal;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-  margin-top: 0;
-}
-
-.hotspot-list ul {
-  list-style: none;
-  padding: 0;
-}
-
-.hotspot-list li {
-  background: #fff;
-  margin-bottom: 5px;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  transition: background 0.2s ease;
-}
-
-.hotspot-list li:hover {
-  background: #e9ffe9;
-}
-
-/* Details Area (Right Side) */
-.details {
-  flex: 1;
-  background: #fff;
-  padding: 20px;
-  box-sizing: border-box;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.bird-info .bird-name {
-  margin-top: 0;
-  font-size: 1.5em;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-}
-
-.bird-info p {
-  margin: 10px 0;
-}
-
-.bird-info img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  margin-top: 20px;
-  border: 1px solid #ccc;
+}
+
+.bird-photo img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
   border-radius: 4px;
 }
 
-.map-container {
-  /* Keep placeholder for now */
-}
-
-/* Footer */
 footer {
   text-align: center;
   padding: 10px;

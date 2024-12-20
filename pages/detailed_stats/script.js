@@ -1,7 +1,7 @@
 let parsedData = [];
 
 // Fetch and parse the CSV
-fetch('../taxonomy.csv')
+fetch('../../taxonomy.csv')
   .then(response => response.text())
   .then(csvData => {
     const parsed = Papa.parse(csvData, { header: true }).data;
